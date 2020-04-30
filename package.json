@@ -1,0 +1,35 @@
+{
+  "name": "sassa-jsbox",
+  "version": "0.0.1",
+  "description": "SASSA messaging applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praekeltfoundation/sassa-jsbox.git"
+  },
+  "keywords": [
+    "vumi",
+    "sandbox",
+    "sassa"
+  ],
+  "author": "praekelt.org",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/praekeltfoundation/sassa-jsbox/issues"
+  },
+  "homepage": "https://github.com/praekeltfoundation/sassa-jsbox#readme",
+  "dependencies": {
+    "seed-jsbox-utils": "^0.4.1",
+    "vumigo_v02": "^0.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-mocha-test": "^0.13.3",
+    "grunt-prettier": "^2.1.0",
+    "mocha": "^7.1.2"
+  }
+}
